@@ -1,7 +1,9 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom"
+import { Link} from "react-scroll"
 import Contact from "./components/Contact"
 import Header from "./components/Header"
 import Home from "./components/Home"
+import Education from "./components/Education"
 
 
 
@@ -17,6 +19,7 @@ function App() {
     <Routes>
       <Route path="/" element={<Home></Home>}></Route>
       <Route path="/contact" exact element={<Contact></Contact>}></Route>
+  
 
       </Routes>
     </div>

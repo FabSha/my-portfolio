@@ -1,8 +1,18 @@
 const Home = () => {
     return (
-        <div>
-            <h1>Portfolio</h1>
-        </div>
+      <div className="flex-container">
+        
+        <aside className="sidebar">Sidebar
+        <p>hej</p>
+        
+        </aside>
+        
+        
+        <main className="main">Main
+        <p>hej</p>
+        </main>
+
+    </div>
     )
 }
 

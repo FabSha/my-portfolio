@@ -1,0 +1,17 @@
+Fabian har gjort klart 12/10
+- [x] Sätta upp routing klart
+- [x] Email js klart
+- [x] Har en grov skiss I Figma
+
+Ska göra
+1. Följ Figma wireframen och sätt upp basic sektioner
+2. Implementerar react-scroll I din header, titta på koden i portfolio
+3. Koppla menylänkar till respektive sektion med realt-scroll
+4. Valfritt att göra en scroll-to-top
+
+
+Steg 2 när du gjort klart listan ovan:
+- Fundera design på din sida
+- titta på inspiration och använd det som går, modifiera efter smak och tycke
+Valfritt om du vill göra en wirefram
+https://freefrontend.com/css-code-examples/
