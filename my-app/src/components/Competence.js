@@ -2,7 +2,7 @@
 
 const Competence = () => {
     return (
-
+        <h1>Kompetenser</h1>
     )
 }
 

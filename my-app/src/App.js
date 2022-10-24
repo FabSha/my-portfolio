@@ -3,7 +3,7 @@ import { Link} from "react-scroll"
 import Contact from "./components/Contact"
 import Header from "./components/Header"
 import Home from "./components/Home"
-import Education from "./components/Education"
+import Footer from "./components/Footer"
 
 
 
@@ -13,18 +13,23 @@ function App() {
     
     <div>
       <Header></Header>
+
+      
     </div>
     
     <div className="container">
     <Routes>
       <Route path="/" element={<Home></Home>}></Route>
       <Route path="/contact" exact element={<Contact></Contact>}></Route>
+      
   
 
       </Routes>
+      <Footer></Footer>
     </div>
     
     </BrowserRouter>
+    
   )
 }
 

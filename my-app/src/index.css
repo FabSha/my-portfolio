@@ -1,11 +1,24 @@
 .flex-container {
   display: flex;
+  flex-direction: row;
+ 
+  
   
 }
 
-.header {
+.navbar-links {
   display: flex;
-  flex-direction: row;
+ 
+  
+  
+}
+
+.navbar-links-item {
+  margin: 10px;
+  list-style: none;
+  /*text-decoration: none; 
+  funkade inte*/
+  
 }
 
 .sidebar {
@@ -59,3 +72,4 @@ Kontaktsidan
   border-radius: 0.25rem;
   cursor: pointer;
 }
+
