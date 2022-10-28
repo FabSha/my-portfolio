@@ -1,16 +1,16 @@
 .flex-container {
   display: flex;
   flex-direction: row;
+  position: sticky;
+  top: 0;
  
-  
-  
+ 
 }
 
 .navbar-links {
   display: flex;
  
-  
-  
+
 }
 
 .navbar-links-item {
@@ -18,6 +18,8 @@
   list-style: none;
   /*text-decoration: none; 
   funkade inte*/
+  cursor: pointer;
+  
   
 }
 
